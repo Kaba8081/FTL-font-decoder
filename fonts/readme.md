@@ -1,0 +1,1 @@
+Using the tools described in the main readme of this repository, extract the in-game fonts you want to decode and place them here.
