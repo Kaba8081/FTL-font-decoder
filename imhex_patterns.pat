@@ -1,17 +1,16 @@
 #pragma endian big
-
 #include <std/mem>
 
 struct Font {
     // 192 bits - 24 bytes
     u32 fixed;  // FONT - string
-    padding[8]; // unknown1
+    u8 version;
+    padding[7]; // unused bytes
     u16 character_length;
     u16 character_size;
     u32 section_size;
     padding[2]; // unknown2
     u16 tex_height;
-    padding[2]; // unknown3
 };
 
 struct Tex {

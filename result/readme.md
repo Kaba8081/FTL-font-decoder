@@ -1,0 +1,1 @@
+In this directory, output files will appear either as a 'fontname_output.bmp' or a folder with all the character's saved as .svg files.
